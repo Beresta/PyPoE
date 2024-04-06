@@ -736,6 +736,8 @@ class MOD_DOMAIN(IntEnumOverride):
     # Items that can't have mods (may need to increase the number when new values are added)
     MODS_DISALLOWED = 37
 
+    _ = 38
+
     # legacy names
     MASTER = CRAFTED
     JEWEL = MISC
